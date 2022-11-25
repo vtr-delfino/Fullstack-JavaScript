@@ -1,0 +1,13 @@
+body {
+    background-color: #626291;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+.foto-perfil {
+    width: 250px;
+    border: 2px solid #FFFFFF; /* shorthand */
+    border-radius: 50%;
+}
