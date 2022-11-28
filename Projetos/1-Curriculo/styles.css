@@ -1,8 +1,6 @@
 body {
     background-color: #626291;
-}
-
-p {
+    font-family: 'Lora', serif;
     color: #FFFFFF;
 }
 
@@ -10,4 +8,20 @@ p {
     width: 250px;
     border: 2px solid #FFFFFF; /* shorthand */
     border-radius: 50%;
+    margin: 15px; /* espaçamento externo */
+    /* padding: 5px; espaçamento interno */
+    box-shadow: 2px 2px 5px #000000;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: #aaaaaa;
+    font-weight: 100;
+    letter-spacing: -1px;
 }
