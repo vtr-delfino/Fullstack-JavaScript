@@ -1,0 +1,54 @@
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+a:hover + .container {
+    display: block;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color: pink;
+}
+
+.container {
+    display: none;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.container:hover {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: green;
+}
+
+div {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.exemplo p:first-child {
+    color: blue;
+}
+
+.exemplo1 p:nth-child(4) {
+    color: orange;
+}

@@ -1,0 +1,33 @@
+/* Usa apenas dois parametros */
+::selection {
+    color: blueviolet;
+    background: black;
+}
+
+p::first-line {
+    color: orange;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+h1::before {
+    content: "";
+    background: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1::after {
+    content: "";
+    background: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 20px;
+}

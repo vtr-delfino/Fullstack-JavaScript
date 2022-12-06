@@ -1,5 +1,21 @@
+h1 {
+    text-shadow: 2px 2px 20px red;
+}
+
 p {
     font-size: 30px;
     color: green;
-    text-align: center;
+    text-align: justify;
+    font-weight: 500;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    text-indent: 50px;
+    word-spacing: 5px;
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 5px;
 }

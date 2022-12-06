@@ -1,0 +1,12 @@
+ul {
+    background-color: gray;
+    padding: 20px;
+    /* display: none;*/
+    /* visibility: hidden; */
+    opacity: 0.5;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
