@@ -1,16 +1,18 @@
+/* Color Pallete: https://coolors.co/ffffff-412234-6d466b-b49fcc-ead7d7 */
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #626291;
+  background-color: #6D466B;
   font-family: "Lora", serif;
-  color: #ffffff;
+  color: #EAD7D7;
   margin: 0;
 }
 
 .container-main {
-  width: 900px;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -50,8 +52,8 @@ h2 {
 }
 
 h3 {
-  color: #aaaaaa;
-  font-weight: 200;
+  color: #EAD7D7;
+  /* font-weight: 200; */
 }
 
 h4 {
@@ -74,7 +76,9 @@ strong {
 }
 
 .icons {
-  width: 50px;
+  width: 10%;
+  min-width: 40px;
+  max-width: 50px;
   margin: 0 10px;
 }
 
@@ -87,21 +91,13 @@ strong {
   padding-left: 20px;
 }
 
-.footer {
-  background-color: #000000;
-  margin-top: 50px;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px 0;
-}
-
 /* TIMELINE */
 
 /* A TIMELINE (linha vertical) */
 .timeline {
   position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 16%;
 }
 
 /* A TIMELINE (linha vertical) */
@@ -134,7 +130,7 @@ strong {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #4b4b6e;
+  border: 4px solid #412234;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -174,9 +170,18 @@ strong {
 }
 
 .timeline-titles {
-  margin: 2px;
+  color: #6D466B;
+  margin: 0 0 5px 0;
 }
 
 .timeline-content p {
-  color: #000000;
+  color: #412234;
+}
+
+.footer {
+  background-color: #412234;
+  margin-top: 50px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
 }

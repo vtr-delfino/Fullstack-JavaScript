@@ -1,0 +1,35 @@
+.exemplo {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+}
+
+/* Combinators */
+.exemplo1 p.red {
+  color: red;
+}
+
+.margin {
+  margin: 50px;
+}
+
+h1,
+h2,
+h3 {
+  color: blue;
+}
+
+/* > apenas parágrafos filhos de .exemplo2 */
+.exemplo2 > p {
+  color: blue;
+}
+
+/* + seleciona o primeiro elemento "irmão" */
+.exemplo3 + p {
+    color: red;
+}
+
+/* Seleciona todos os irmãos diretos */
+.exemplo4 ~ p {
+    color: green;
+}
