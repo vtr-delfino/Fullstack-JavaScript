@@ -1,0 +1,20 @@
+:root {
+    --color-primary: red;
+    --color-secunday: blue;
+}
+
+h1 {
+    color: var(--color-primary);
+}
+
+h2 {
+    color: var(--color-secunday);
+}
+
+p {
+    color: var(--color-primary);
+}
+
+button {
+    color: var(--color-primary);
+}
