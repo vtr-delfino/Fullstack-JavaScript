@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="salvar.html" method="GET">
+        <label for="nome">Nome: </label>
+        <input id="nome" name="nome" type="text" placeholder="Digite o seu nome">
+
+        <label for="email">E-mail: </label>
+        <input id="email" name="email" type="email" placeholder="Digite o seu e-mail">
+
+        <label for="senha">Senha: </label>
+        <input id="senha" name="senha" type="password" placeholder="Digite uma senha">
+        <br>
+        <label for="">Sexo</label>
+        <br>
+        <input name="sexo" type="radio" value="Masculino" id="masculino"> <label for="masculino">Masculino</label> <br>
+        <input name="sexo" type="radio" value="Feminimo" id="feminimo"> <label for="feminimo">Feminino</label> <br>
+        <input name="sexo" type="radio" value="Prefiro Não Informar" id="nao-informar"> <label for="nao-informar">Prefiro não informar</label> <br>
+
+        <br><br>
+
+        <label for="">Habilidades:</label>
+        <br>
+        <input name="habilidades" type="checkbox" value="html" id="html"> <label for="html">HTML</label> <br>
+        <input name="habilidades" type="checkbox" value="css" id="css"> <label for="css">CSS</label> <br>
+        <input name="habilidades" type="checkbox" value="javascript" id="js"> <label for="js">JavaScript</label>
+
+
+        <br><br>
+
+        <label>Cidade</label>
+        <br>
+        <select name="cidade" id="">
+            <option selected>-- Selecione --</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+        </select>
+
+        <br><br>
+        <label>Carro:</label>
+        <br>
+        <select name="carro" id="">
+            <option selected>-- Selecione --</option>
+            <optgroup label="Honda">
+                <option value="Civic">Civic</option>
+            </optgroup>
+            <optgroup label="GM">
+                <option value="Celta">Celta</option>
+            </optgroup>
+            <optgroup label="Fiat">
+                <option value="Uno">Uno</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        <!-- <input type="file"> -->
+        <button>Enviar</button>
+        <!-- <input type="button" value="Enviar"> // Essa tag foi descontinuada -->
+    </form>
+</body>
+</html>

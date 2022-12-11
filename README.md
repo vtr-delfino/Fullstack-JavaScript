@@ -1,6 +1,6 @@
 # Full Stack JavaScript
 
-> **Curso**: https://formacaofullstackjavascript.club.hotmart.com/
+> **Curso**: https://formacaofullstackjavascript.club.hotmart.com/ <br>
 > **Professor**: https://github.com/thiagommedeiros
 
 ---
