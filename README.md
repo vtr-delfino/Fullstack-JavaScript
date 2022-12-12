@@ -17,9 +17,9 @@
  - 08 ) ✅ **HTML** Intermediário
  - 09 ) ✅ **CSS** Intermediário
  - 10 ) ✅ Projeto - Menu
- - 11 ) ➡️ **HTML** Avançado
- - 12 ) ❌ Desafio - Página de Captura
- - 13 ) ❌ **CSS** Avançado
+ - 11 ) ✅ **HTML** Avançado
+ - 12 ) ✅ Desafio - Página de Captura
+ - 13 ) ➡️ **CSS** Avançado
  - 14 ) ❌ **CSS** Flexbox
  - 15 ) ❌ Desafio - Flexbox
  - 16 ) ❌ Projeto Barber Shop

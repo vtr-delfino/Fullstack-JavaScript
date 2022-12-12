@@ -1,0 +1,13 @@
+body {
+    font-size: 15px;
+}
+
+.box {
+    width: 10%;
+    height: 100px;
+    background-color: black;
+}
+
+p {
+    font-size: 2em;
+}
